@@ -38,7 +38,7 @@ class Chatbot:
         )
 
         try:
-            from ollama import chat
+            from a import chat
 
             response = chat(
                 model=self.model,
